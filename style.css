@@ -6,7 +6,7 @@
 
 
 .a5{
-    background: url(https://source.unsplash.com/featured/?education,online) no-repeat center center fixed;
+    background: url(./assests/geometry-1044090_1920.jpg) no-repeat center center fixed;
     background-size: cover;
     position: relative;
 }
@@ -74,7 +74,7 @@ hr{
 }
 
 
-a {
+a , .dropdown-toggle{
   transition: all 0.4s;
   margin: 5px;
   text-decoration:none;
@@ -86,7 +86,7 @@ a {
   text-align: center;
   text-shadow: 1px 2px 3px black;
 }
-a:hover {
+a:hover,.dropdown-toggle:hover {
   box-shadow: 0 4px purple;
     transform: scaleY(1.1);
    
@@ -101,7 +101,7 @@ a:hover {
    font-size: 2.2rem;
     font-weight: 800;
     padding-left: 3px;
-    
+    text-shadow: none;
 }
 
 .navbar .navbar-brand{
@@ -113,6 +113,23 @@ a:hover {
     float:right;
     padding-left: 850px;
     
+}
+div.dropdown-menu{
+    width: 50%;
+    
+}
+
+.right .dropdown .dropdown-toggle{
+    padding-left: 5px;
+    padding-top: 3px;
+    text-decoration: none;
+}
+
+.right .dropdown .dropdown-menu a{
+    font-size:1.7rem;
+    text-shadow: none;
+    padding-bottom: 5px;
+    text-decoration: none;
 }
 
 .center{
@@ -148,4 +165,43 @@ hr.b4{
    border-top: 2px solid purple;
     width: 100%;
     
+}
+
+.vertical-1{
+    border-left: 3px solid purple;
+    height: 260px;
+    margin-left: 40px;
+}
+
+.vertical-2{
+    border-right: 3px solid purple;
+    height: 260px;
+    margin-right: 40px;
+}
+
+.body-style{
+    padding: 25px;
+    
+}
+
+.body-style:hover{
+  -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);   
+}
+
+.object-cover:hover{
+
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.object-cover{
+    box-shadow: 2px 4px 6px 2px rgb(204, 102, 255), 2px 6px 20px 2px rgb(214, 214, 194);
+    
+}
+
+.background-img{
+   background: lightgray;
 }
