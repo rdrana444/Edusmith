@@ -2,16 +2,23 @@
 <html lang="">
 <head>
     <meta charset="UTF-8">
-    <title>Untitled Document</title>
-    <meta name="Author" content=""/>
-   
+    <title>Edusmith</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/tailwind.min.css">
+    
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    
    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link href="style.css" rel="stylesheet">
+   
+    <link href="css/style.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.css">
 
 </head>
 
@@ -19,51 +26,50 @@
    
 <!-- header area  -->
    <div class="a5">
-  <nav class="navbar navbar-expand-lg">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" href="#"><img src="./assests/logo_try_3.png" style="width: 120px;height: 55px" id="logo"></a>
+  <div class="header">
+<nav class="navbar fixed-top" style=" background-image:">
+  <div class="">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="/assests/ezgif.com-resize.gif" style="width: 90px;height: 50px;" ></a>
+    </div>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;text-decoration: none">
-          All Courses
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#" style="text-decoration: none">Development</a>
-          <a class="dropdown-item" href="#" style="text-decoration: none">Coding</a>
-          <a class="dropdown-item" href="#" style="text-decoration: none">Academics</a>
-        </div>
-      </li>
-      
-     <div class="right" >
-      
-          
-          <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-decoration: none;color: white;font-size: 2.3rem"><span class="glyphicon glyphicon-log-in" style="padding: 10px"></span>
-    Login
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">As Student</a>
-    <a class="dropdown-item expand-lg" href="#">As Administrator</a>
-    
-  </div>
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-decoration: none;color: white;font-size: 2.3rem"><span class="glyphicon glyphicon-user" style="padding: 10px"></span>
-    Sign Up
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">As Student</a>
-    <a class="dropdown-item" href="#">As Administrator</a>
-    
-  </div>
-  
-</div>
-      </div>
-    </ul>
-  </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Dashboard</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">All Courses<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" >Sign Up</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+			<ul id="login-dp" class="dropdown-menu">
+				 <li><a href="#">As User</a></li>
+            <li><a href="#">As Instructor</a></li>
+			</ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
 </nav>
+</div>
 
 
     
@@ -71,13 +77,17 @@
 <!-- Search bar area   -->
     <div class="mx-auto flex flex-col px-10 py-2 justify-center items-center">
         <div class="w-full flex flex-col mb-5 text-center">
-            <h1 class="title-font sm:text-5xl mb-2 font-medium text-gray-900"><div>
-              <img src="./assests/logo_try_3-2.png" style="height: 200px; width: 500px " id="logo">
-            </div></h1><hr class="b5">
-            <p class="styling">Learn &#94; Grow &#94; Archieve </p>
+            <h1 class="title-font sm:text-9xl mb-2 font-medium text-gray-900"><div class="logo">
+             Edusmith
+            </div></h1>
+            <p class="styling"><marquee scrollamount="10"
+direction="left"
+behavior="scroll">
+Learn &#94; Grow &#94; Achieve
+</marquee> </p>
             <div class="flex w-full justify-center">
-                <input class="border-9 bg-white-500 rounded mr-3 border border-purple-400 text-base px-4 lg:w-full xl:w-1/2 w-2/4 md:w-full search-bar" placeholder="Search" type="text" style="height: 40px;border-radius: 5%;border: 2px solid " >
-                <button class="text-white bg-purple-500 border-1 py-2 px-6 focus:outline-none hover:bg-red-600 rounded search-bar">&#11206;</button>
+                <input class=" bg-white-500 rounded mr-5  text-base px-8 lg:w-full xl:w-1/2 w-2/4 md:w-full search-bar" placeholder="Search" type="text" style="height: 40px;border-radius: 3%/50% " >
+                <button class="text-white bg-purple-500 border-2 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded search-bar"><span class="glyphicon glyphicon-search" style="padding:2px"></span></button>
             </div>
         </div>
     </div>
@@ -88,25 +98,25 @@
 <!--search bar area end-->
 <!--Body area -->
 
-<section class="text-gray-700 body-font background-img">
+<section class="text-gray-700 body-font background-img" style="background: #ebebe0">
  <div class="body-style">
   <div class="container mx-auto flex px-5 py-5 md:flex-row flex-col items-center">
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 bright">
       <img class="object-cover object-center rounded" alt="hero" src="./assests/objects-731426_640.jpg" style="width: 320px;height:266.6px ">
-    </div><div class="vertical-1"></div>
+      </div>
     <div class="lg:flex-grow md:w-1/2 lg:pl-15 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900" style="color: #00B7FF">Before they sold out
         <br class="hidden lg:inline-block">readymade gluten
       </h1>
       <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
       <div class="flex justify-center">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Button</button>
+        <button class="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Audit Only</button>
+        <button class="ml-8 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-white-500 rounded text-lg" style="background:  linear-gradient(to right,  #485563 , #29323c);color: white">Pay For Certification</button>
       </div>
     </div>
   </div>
   </div>
-  <hr class="b4">
+  
   <div class="body-style">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="lg:flex-grow md:w-1/2 lg:pr-18 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -115,10 +125,10 @@
       </h1>
       <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
       <div class="flex justify-center">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Button</button>
+         <button class="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Audit Only</button>
+        <button class="ml-8 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-white-500 rounded text-lg" style="background:  linear-gradient(to right,  #485563 , #29323c);color: white">Pay For Certification</button>
       </div>
-    </div><div class="vertical-2"></div>
+    </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
       <img class="object-cover object-center rounded" alt="hero" src="./assests/books-1245690_640.jpg" style="widows: 320px;height: 266.6px">
     </div>
@@ -137,8 +147,8 @@
       </h1>
       <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
       <div class="flex justify-center">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Button</button>
+          <button class="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Audit Only</button>
+        <button class="ml-8 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-white-500 rounded text-lg" style="background:  linear-gradient(to right,  #485563 , #29323c);color: white">Pay For Certification</button>
       </div>
     </div>
   </div>
@@ -151,36 +161,99 @@
       </h1>
       <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
       <div class="flex justify-center">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Button</button>
+          <button class="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Audit Only</button>
+        <button class="ml-8 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-white-500 rounded text-lg" style="background:  linear-gradient(to right,  #485563 , #29323c);color: white">Pay For Certification</button>
       </div>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
       <img class="object-cover object-center rounded" alt="hero" src="https://source.unsplash.com/720x600/?education,books">
     </div>
   </div></div>
-</section><hr class="b4">
+</section>
 <!--body area end-->
 <!--testimonial-->
 
-<section id="testimonials">
-  <div class="container">
-    <h1 class="title text-center">WHAT CLIENTS SAY</h1>
-    <div class="row offset-1">
-      <div class="col-md-5 testimonials">
-      <p>Get the quick result for all the queries just on one click.</p>
-      <img src="assests/rohit.jpeg">
-      <p class="user-details"><b>Rohit</b><br> Co-founder at xyz</p>
-      </div>
-      <div class="col-md-5 testimonials">
-        <p>Get the quick result for all the queries just on one click.</p>
-        <img src="assests/rohit.jpeg">
-        <p class="user-details"><b>Angelina</b><br> Co-founder at xyz</p>
+<main class="site-main">
+<section class="about-area">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12">
+                <div class="about-title">
+                    <h1 class="text-uppercase title-h1" style="color: white">client say about me</h1>
+                    <p class="para">loreum as a more-or-less normal distribution of letters, d webl in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose.</p>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <div class="container carousel py-lg-5">
+<div class="owl-carousel owl-theme">
+    <div class="client row">
+        <div class="col-lg-4 col-md-12 client-img">
+              <img src="./assests/team2.png" style="width: 100px" alt="img1" class="img-fluid">
+        </div>
+        <div class="col-lg-8 cl-md-12 about-client">
+            <h4 class="text-uppercase">Keshav goswami</h4>
+            <p class="para">less normal distribution of letters, d webl in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on </p>
         </div>
     </div>
-  </div>
+        
+      <div class="client row">
+        <div class="col-lg-4 col-md-12 client-img">
+              <img src="./assests/team3.png" style="width: 100px" alt="img1" class="img-fluid">
+        </div>
+        <div class="col-lg-8 cl-md-12 about-client">
+            <h4 class="text-uppercase">K.D</h4>
+            <p class="para">less normal distribution of letters, d webl in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on </p>
+        </div>
+    </div>  
+    
+       <div class="client row">
+        <div class="col-lg-4 col-md-12 client-img">
+             <img src="./assests/team2.png" style="width: 100px" alt="img1" class="img-fluid">
+        </div>
+        <div class="col-lg-8 cl-md-12 about-client">
+            <h4 class="text-uppercase">Gaurav Singh</h4>
+            <p class="para">less normal distribution of letters, d webl in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on </p>
+        </div>
+    </div>
+        
+      <div class="client row">
+        <div class="col-lg-4 col-md-12 client-img">
+              <img src="/assests/team1.png" style="width: 100px" alt="img1" class="img-fluid">
+        </div>
+        <div class="col-lg-8 cl-md-12 about-client">
+            <h4 class="text-uppercase">Ritik</h4>
+            <p class="para">less normal distribution of letters, d webl in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on </p>
+        </div>
+    </div>   
+    
+        <div class="client row">
+        <div class="col-lg-4 col-md-12 client-img">
+            <img src="./assests/team3.png" style="width: 100px" alt="img1" class="img-fluid">
+        </div>
+        <div class="col-lg-8 cl-md-12 about-client">
+            <h4 class="text-uppercase">Prakhar</h4>
+            <p class="para">less normal distribution of letters, d webl in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on </p>
+        </div>
+    </div>
+        
+      <div class="client row">
+        <div class="col-lg-4 col-md-12 client-img">
+              <img src="./assests/team2.png" style="width: 100px" alt="img1" class="img-fluid">
+        </div>
+        <div class="col-lg-8 cl-md-12 about-client">
+            <h4 class="text-uppercase">Rishabh</h4>
+            <p class="para">less normal distribution of letters, d webl in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on </p>
+        </div>
+    </div>     
+    
+    </div>
+    </div>
 </section>
-
+</main>
 <!--end testimonial area-->
 <!--statitics area-->
 
@@ -210,12 +283,14 @@
     </div>
   </div>
 </section>
-
+    
 
 
 </body>
  
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
+  <script src="js/main.js" ></script>
+<script src="js/jquery-3.5.0.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
 </html>
