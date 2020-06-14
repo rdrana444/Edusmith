@@ -112,6 +112,7 @@ span.icon-bar:hover{
     background-color: #333;
     position: absolute;
     opacity: 0.4;
+     
 }
 
 #logo,.collapse,#logo,.styling,.search-bar{
@@ -156,32 +157,88 @@ a:hover,.dropdown-toggle:hover {
 
 /*header end*/
 
-.mx-auto .w-full .title-font{
-    padding-left: none;
+/*body*/
+.team{
+    background: #ebebe0;
 }
 
-
-.body-style{
-    padding: 25px;
-    
+.ceo-section{
+    padding-top: 20px;
 }
 
-.object-cover:hover{
-           filter: brightness(1.2)drop-shadow(1px 8px 30px #b1afaf);
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 196.4px;;
+  border-radius: 50%;
+  height: 260px;
+-webkit-box-shadow: 0px 0px 52px 2px rgba(0,0,0,0.42);
+-moz-box-shadow: 0px 0px 52px 2px rgba(0,0,0,0.42);
+box-shadow: 0px 0px 52px 2px rgba(0,0,0,0.42);
+}
+
+.center:hover{
+     filter: brightness(1.1)drop-shadow(1px 8px 30px #b1afaf);
     -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
         transform: scale(1.1);
 }
 
-.object-cover{
-    box-shadow: 2px 4px 6px 2px rgb(118, 116, 119), 2px 6px 20px 2px rgb(214, 214, 194);
-    
+.team h1{
+    font-size: 4rem;
+     text-shadow: 3px 3px 4px black;
+    color:  #00B7FF;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
 }
 
-.background-img{
-   background: #fafcfc;
+.team h2{
+  font-size: 4rem;
+    color:linear-gradient(to right,  #485563 , #29323c)
 }
 
+.section-bg {
+    background: url(/assests/books-1245690_640.jpg)no-repeat center center fixed;
+ background-size: cover;
+    position: relative;
+  padding: 5rem 0;
+}
+
+
+    .section-bg::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #333;
+      opacity: .6;
+      z-index: 0; }
+
+    .section-bg.style-1 > .container {
+      z-index: 2; }
+
+    .fas {
+      font-size: 3.5rem;
+      color: #00B7FF; }
+  .section-bg .fa{
+      font-size: 3.5rem;
+      color: #00B7FF; 
+   }
+
+    .section-bg.style-1 h3 {
+      font-size: 25px;
+      color: white;
+      margin-bottom: 20px; }
+
+    .section-bg.style-1 p {
+      color: white;
+}
+
+/*footer area*/
 #footer {
     background-image: linear-gradient(to right,  #485563 , #29323c);
     color: #fff;
@@ -226,11 +283,12 @@ a:hover,.dropdown-toggle:hover {
     
 }
 .about-us a:hover{
-     box-shadow: none;;
+     box-shadow: none;
     transform: scaleY(1.1);
-    color: white;
+     color:#fff;
     text-decoration: none;
 }
+
 
 .copyright{
     text-align: center;
@@ -307,125 +365,4 @@ a:hover,.dropdown-toggle:hover {
     padding: 9px;
 }
 
-
-
-
-
-/*testonomial*/
-.site-main{
-    background: url(../assests/stars-1128772_1280.jpg)no-repeat center center fixed;
-    background-size: cover;
-    position: relative;
-}
-
- .site-main::before{
-    content: "";
-    display: block;
-    width: 100%;
-     top: 0px;
-     left: 0px;
-     bottom: 0px;
-     right: 0px;
-    height: 100%;
-    background-color: #333;
-    position: absolute;
-    opacity: 0.5;
-}
-
-h1,p,h4,.para{
-    position: relative;
-    font-size: 2rem;
-    color: #ffffff;
-}
-
-
-
-.site-main .about-area .about-title p{
-    padding: 1rem 7rem;
-}
-.site-main .about-area .about-title{
-    padding: 2rem;
-    
-}
-
-.site-main .about-area .client{
-    background: #ffffff10;
-    box-shadow: 0 4px #f2f9fa;;
-    margin: 2rem 0rem;
-}
-
-.site-main .about-area .client .client-img{
-    padding: 2rem;
-    
-}
-
-.site-main .about-area .client .about-client{
-    padding-top: 1rem;
-}
-
-.site-main .about-area .client .about-client h4{
-    font-size: 2.5rem;
-    color: white;
-}
-
-.site-main .about-area .client .about-client p{
-    font-size: 15px;
-}
-.site-main .about-area .owl-carousel .owl-item{
-    display: flex;
-    justify-content: center;
-    padding: 0 2rem;
-}
-
-.site-main .about-area .owl-carousel .owl-item::before{
-      content: "";
-    display: block;
-    width: 93%;
-    height: 100%;
-    background-color: #333;
-    position: absolute;
-    opacity: 0.4;
-
-}
-
-.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
-    background:#333 ;
-    width: 12px;
-    height: 12px;
-}
-
-.site-main .about-area .owl-carousel .owl-dots{
-    margin: 25px;
-    
-}
-
-p.para{
-    font-size: 1.8rem;
-}
-
-
-/*button style*/
-
-.body-style h1{
-    font-size: 3rem;
-    color: #00B7FF;
-    font-weight: 600;
-    text-shadow:1px 1px 1px black; 
-}
-.body-style p{
-    font-size: 1.5rem;
-    color: black;
-}
-
-.body-style button{
-  text-align: center;
-  font-size: 1.5rem;
-  cursor: pointer;
-    border-radius: 10%
-}
-
-
-
-
-
-
+/*footer end*/
